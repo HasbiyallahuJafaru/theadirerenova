@@ -8,12 +8,12 @@ export function SiteFooter() {
         <div>
           <span className="font-display text-3xl font-semibold tracking-tight">TAR</span>
           <p className="mt-4 max-w-[36ch] text-[15px] leading-relaxed text-white/70">
-            We tie, fold, stitch and dip every cloth ourselves, in Kaduna. When a piece
+            Adire and asoebi, wholesale and retail, hand-dyed in Kaduna. When a piece
             is gone, there will never be another one like it.
           </p>
           <div className="mt-6 flex gap-3">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/theadirerenova/"
               aria-label="Instagram"
               className="flex size-10 items-center justify-center rounded-full border border-white/20 transition-colors hover:border-tar-orange hover:bg-tar-orange"
             >
@@ -65,10 +65,16 @@ export function SiteFooter() {
             Studio
           </p>
           <p className="mt-4 text-[15px] leading-relaxed text-white/80">
-            Kaduna, Nigeria
+            Shop 29, Al Halal Plaza
             <br />
-            Mon to Sat, 9am to 6pm
+            Waff Road, Kaduna, Nigeria
           </p>
+          <a
+            href="https://www.threads.com/@theadirerenova"
+            className="mt-4 inline-block text-[15px] text-white/80 underline-offset-4 transition-colors hover:text-tar-orange hover:underline"
+          >
+            Threads, @theadirerenova
+          </a>
         </div>
       </div>
 
