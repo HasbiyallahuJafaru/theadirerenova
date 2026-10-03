@@ -19,9 +19,9 @@ export default function ShopPage() {
   }, [category, sort]);
 
   return (
-    <div className="mx-auto max-w-[1400px] px-4 py-14 md:px-8 md:py-20">
+    <div className="mx-auto max-w-[1500px] px-4 py-14 md:px-10 md:py-20">
       <div className="mb-12 max-w-2xl">
-        <h1 className="font-display text-5xl font-medium tracking-[-0.02em] text-tar-green-deep md:text-6xl">
+        <h1 className="font-display text-[clamp(2.75rem,5vw,4.5rem)] font-medium leading-[1.02] tracking-[-0.02em] text-tar-green-deep">
           Every cloth on this page is one of one
         </h1>
         <p className="mt-4 text-lg leading-relaxed text-tar-muted">

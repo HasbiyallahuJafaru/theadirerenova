@@ -44,7 +44,7 @@ export function Hero() {
 
       <div className="relative mx-auto flex min-h-[calc(100dvh-72px)] max-w-[1400px] items-center px-4 pb-16 pt-10 md:px-8">
         <div className="max-w-[640px]">
-          <h1 className="font-display text-[clamp(3rem,7.5vw,6rem)] font-medium leading-[1.02] tracking-[-0.02em] text-white">
+          <h1 className="font-display text-[clamp(3.25rem,8vw,6.75rem)] font-medium leading-[1.0] tracking-[-0.025em] text-white">
             {words.map((word, i) => (
               <motion.span
                 key={word + i}
@@ -79,15 +79,15 @@ export function Hero() {
           >
             <Link
               href="/shop"
-              className="rounded-full bg-tar-orange px-8 py-4 text-[16px] font-medium text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-tar-orange-deep active:translate-y-0"
+              className="rounded-full bg-tar-orange px-9 py-[18px] text-[13px] font-semibold uppercase tracking-[0.18em] text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-tar-orange-deep active:translate-y-0"
             >
               Shop fabrics
             </Link>
             <Link
               href="/about"
-              className="rounded-full border border-white/35 px-8 py-4 text-[16px] font-medium text-white transition-all duration-300 hover:border-white hover:bg-white/10"
+              className="rounded-full border border-white/35 px-9 py-[18px] text-[13px] font-semibold uppercase tracking-[0.18em] text-white transition-all duration-300 hover:border-white hover:bg-white/10"
             >
-              See how it is made
+              See the craft
             </Link>
           </motion.div>
         </div>

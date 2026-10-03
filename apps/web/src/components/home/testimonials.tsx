@@ -3,8 +3,8 @@ import { Reveal } from "@/components/reveal";
 
 export function Testimonials() {
   return (
-    <section className="mx-auto max-w-[1400px] px-4 py-24 md:px-8 md:py-32">
-      <h2 className="mb-14 font-display text-4xl font-medium tracking-[-0.02em] text-tar-green-deep md:text-5xl">
+    <section className="mx-auto max-w-[1500px] px-4 py-24 md:px-10 md:py-36">
+      <h2 className="mb-16 font-display text-[clamp(2.5rem,4.5vw,3.75rem)] font-medium tracking-[-0.02em] text-tar-green-deep">
         What people say when they feel it
       </h2>
       <div className="grid gap-10 md:grid-cols-3">
