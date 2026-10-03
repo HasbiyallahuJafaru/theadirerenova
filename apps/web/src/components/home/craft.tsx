@@ -67,7 +67,7 @@ export function CraftSection() {
           <Reveal delay={0.15} className="relative">
             <div className="relative h-full min-h-[420px] overflow-hidden rounded-2xl">
               <Image
-                src="https://picsum.photos/seed/tar-craft/900/1200"
+                src="/ig/DdtLo4JItSX.jpg"
                 alt="Hands tying adire cloth in the studio"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"

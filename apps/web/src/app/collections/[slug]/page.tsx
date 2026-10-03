@@ -19,7 +19,7 @@ export default async function CollectionPage({ params }: PageProps<"/collections
     <div>
       <div className="relative h-[46vh] min-h-[340px] overflow-hidden">
         <Image
-          src={collection.imageUrl.replace("/900/", "/1600/").replace("/1100/", "/900/")}
+          src={collection.imageUrl}
           alt={`${collection.name} collection`}
           fill
           priority

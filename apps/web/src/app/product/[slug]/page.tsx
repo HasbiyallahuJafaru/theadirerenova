@@ -25,10 +25,11 @@ export default async function ProductPage({ params }: PageProps<"/product/[slug]
     (p) => p.categorySlug === product.categorySlug && p.slug !== product.slug,
   );
 
+  // Gallery: the product's own image plus two others from the same collection.
   const gallery = [
     product.imageUrl,
-    product.imageUrl.replace("800/1000", "900/1200"),
-    product.imageUrl.replace("800/1000", "1000/1000"),
+    related[0]?.imageUrl ?? product.imageUrl,
+    related[1]?.imageUrl ?? product.imageUrl,
   ];
 
   return (

@@ -74,7 +74,7 @@ export function Hero() {
         >
           <motion.div className="absolute inset-0" style={{ y: imageY, scale: imageScale }}>
             <Image
-              src="https://picsum.photos/seed/tar-hero/1000/1300"
+              src="/ig/Ddl_g_fCDzs.jpg"
               alt="Hand-dyed adire fabric spread out to dry"
               fill
               priority

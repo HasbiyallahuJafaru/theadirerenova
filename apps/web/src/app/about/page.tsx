@@ -26,7 +26,7 @@ export default function AboutPage() {
           <Reveal className="relative min-h-[420px]">
             <div className="relative h-full overflow-hidden rounded-2xl">
               <Image
-                src="https://picsum.photos/seed/tar-about/1000/1200"
+                src="/ig/Dd_PeylCGW0.jpg"
                 alt="Adire cloth drying in the Kaduna studio"
                 fill
                 priority
