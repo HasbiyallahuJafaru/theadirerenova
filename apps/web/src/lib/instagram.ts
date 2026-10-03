@@ -63,16 +63,100 @@ export const instagramPosts = [
     "permalink": "https://www.instagram.com/theadirerenova/reel/DdtLo4JItSX/"
   },
   {
+    "igId": "DdtLWEBI4U9",
+    "image": "/ig/DdtLWEBI4U9.jpg",
+    "caption": "Whether you’re thinking of a boubou, two-piece, kaftan or something completely different, the right Adire can make a simple style look effortlessly beautiful.\n\nSave this for your next trip to the tailor. \n₦18,000\n\nAnd if you love the fabric used for this look, send us a DM to check its availability",
+    "postedAt": "2026-09-24T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/reel/DdtLWEBI4U9/"
+  },
+  {
+    "igId": "DdrMppsiBKU",
+    "image": "/ig/DdrMppsiBKU.jpg",
+    "caption": "Our Crepe Adire is giving that rich, elegant look without the premium price tag.\n\nPerfect for your next boubou, two-piece, kaftan or statement piece.\n\n₦22,000\n\nDM us to order yours before this design is gone.",
+    "postedAt": "2026-09-23T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/p/DdrMppsiBKU/"
+  },
+  {
+    "igId": "DdqZ_GqoCUw",
+    "image": "/ig/DdqZ_GqoCUw.jpg",
+    "caption": "We all have that fabric sitting somewhere, waiting for its moment. 😂\n\nYou don’t have a plan for it yet, but the fabric was too beautiful to leave behind.\n\nAnd somehow, “I’ll sew it soon” has been going on for months. \n\nBe honest with us \n\nHow many unsewn fabrics are currently sitting in your wardrobe?\n\nDrop the number in the comments 👇🏾\n\nAnd if you already have an outfit in mind for your next fabric, tell us what you’re making.",
+    "postedAt": "2026-09-23T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/reel/DdqZ_GqoCUw/"
+  },
+  {
+    "igId": "Ddn5sP7oOlO",
+    "image": "/ig/Ddn5sP7oOlO.jpg",
+    "caption": "14 likes, 0 comments - theadirerenova on September 23, 2026",
+    "postedAt": "2026-09-22T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/reel/Ddn5sP7oOlO/"
+  },
+  {
+    "igId": "Ddn4GuJIAB2",
+    "image": "/ig/Ddn4GuJIAB2.jpg",
+    "caption": "Whether you dress to make a quiet statement or to turn heads, one thing’s certain  Adire speaks before you do.\n\nAnd this here speak louder.\n\nNo need to stress about quality, we’ve got you covered.\n\n₦35,000",
+    "postedAt": "2026-09-22T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/reel/Ddn4GuJIAB2/"
+  },
+  {
+    "igId": "Ddl_g_fCDzs",
+    "image": "/ig/Ddl_g_fCDzs.jpg",
+    "caption": "Beautiful pattern. Rich colours. Timeless appeal.\n\nWhether you're dressing for an occasion or simply upgrading your wardrobe, this is one fabric worth having.\n\n₦35,000\n\nDM us for availability and price.",
+    "postedAt": "2026-09-21T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/p/Ddl_g_fCDzs/"
+  },
+  {
+    "igId": "DdlZ-EVIo68",
+    "image": "/ig/DdlZ-EVIo68.jpg",
+    "caption": "There’s something special about choosing your fabric in person. \n\nYou get to see the colours properly, feel the fabric, compare different designs and finally pick the one that says “this is the one.”\n\nOur beautiful customer stopped by, made her selection, and left with her The Adire Renova package ready for its next chapter her wardrobe. \n\nThinking about your next Adire outfit?\n\nCome shop with us in person or\n\nSend us a DM and we’ll help you choose from wherever you are.",
+    "postedAt": "2026-09-21T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/reel/DdlZ-EVIo68/"
+  },
+  {
+    "igId": "Ddim_y2CIeT",
+    "image": "/ig/Ddim_y2CIeT.jpg",
+    "caption": "Our Crepe Adire is giving that rich, elegant look without the premium price tag.\n\nPerfect for your next boubou, two-piece, kaftan or statement piece.\n\n₦22,000\n\nDM us to order yours before this design is gone.",
+    "postedAt": "2026-09-20T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/p/Ddim_y2CIeT/"
+  },
+  {
+    "igId": "DdimYVACFpw",
+    "image": "/ig/DdimYVACFpw.jpg",
+    "caption": "The depth of the design.\nThe richness of the colours.\nThe way the patterns come together.\n\nThis is Burkina Faso Adire  and it brings a completely different character to your wardrobe.\n\nIt’s the kind of fabric you don’t buy just because you need “something to sew.”\n\nYou buy it because you already know the outfit is going to stand out.\n\nPicture it as a flowing boubou, a statement two-piece, a kaftan or that elegant outfit you wear to an occasion and have people asking:\n\n“Where did you get that fabric?”\n\n ₦56,000 only\n\nFor the woman who knows the difference between just having fabric and wearing something truly special.\n\nSend us a DM to order or enquire about this piece.",
+    "postedAt": "2026-09-20T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/p/DdimYVACFpw/"
+  },
+  {
+    "igId": "DdbKlUHiEUe",
+    "image": "/ig/DdbKlUHiEUe.jpg",
+    "caption": "If your confused of what to gift a friend for a wedding, this is a perfect idea.\n\nAnother weekend is here again,Don't show up in a wedding or any other events with an empty hand, here's a thoughtful gift for a bribe.\n\nAll you need to do is tell us your budget and we pack a beautiful and presentable lefe\n\nThe thought, the care, the intention behind every piece.\nWe’re honoured to be part of moments like this \n\nDM us to create yours or you can gift a bride.",
+    "postedAt": "2026-09-17T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/p/DdbKlUHiEUe/"
+  },
+  {
+    "igId": "DdYiOk2owAQ",
+    "image": "/ig/DdYiOk2owAQ.jpg",
+    "caption": "The kind of fabric that makes a simple style look intentional. \n\nBeautiful pattern. Rich colours. Timeless appeal.\n\nWhether you're dressing for an occasion or simply upgrading your wardrobe, this is one fabric worth having.\n\n₦35,000\n\nDM us for availability and price.",
+    "postedAt": "2026-09-16T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/reel/DdYiOk2owAQ/"
+  },
+  {
+    "igId": "DdV-Y69CGq4",
+    "image": "/ig/DdV-Y69CGq4.jpg",
+    "caption": "Some fabrics are nice. Some fabrics make you start planning the outfit immediately. 🤭✨\n\nTake your time and look through these Adire pieces.\n\nPicture that beautiful boubou.\nThat effortless twobpiece.\nThat statement kaftan.\nThat outfit your tailor will actually be excited to make.\n\nWhich one are you taking? 👀\n\nSend us a screenshot of your favourite design and let’s help you place your order.\n\n₦24,000\n\n📩DM to order. Nationwide delivery available.",
+    "postedAt": "2026-09-15T23:00:00.000Z",
+    "permalink": "https://www.instagram.com/theadirerenova/p/DdV-Y69CGq4/"
+  },
+  {
     "igId": "DS2xULqiJM1",
     "image": "/ig/DS2xULqiJM1.jpg",
-    "caption": "Whether you dress to make a quiet statement or to turn heads, one thing's certain  Adire speaks before you do.\n\nOur curated collection of authentic Adire fabrics is for women who don't just follow trends  they set them. From bold everyday looks to coordinated Asoebi styles, each fabric is crafted to bring out your best.\n\nNo need to stress about quality, customization, or where you are  we've got you covered.\n\n✨ We customize for Asoebi and special events\n✨ We sell both retail and wholesale\n✨ We deliver nationwide  fast and reliable\n\nSo whether you're a fashion-forward queen or a celebrant planning your big day, your fabric plug is right here.\n\nReady to shop or customize your own look?\n\nSend us a DM now and let's create something unforgettable together.",
+    "caption": "Whether you dress to make a quiet statement or to turn heads, one thing's certain  Adire speaks before you do.\n\nOur curated collection of authentic Adire fabrics is for women who don't just follow trends  they set them. From bold everyday looks to coordinated Asoebi styles, each fabric is crafted to bring out your best.\n\nNo need to stress about quality, customization, or where you are  we've got you covered.\n\n✨ We customize for Asoebi and special events\n✨ We sell both retail and wholesale\n✨ We deliver nationwide  fast and reliable\n\nSo whether you're a fashion-forward queen or a celebrant planning your big day, your fabric plug is right here.\n\nReady to shop or customize your own look?\n\nSend us a DM now and let's create something unforgettable together.\n\n  👌🏾",
     "postedAt": "2025-12-28T23:00:00.000Z",
     "permalink": "https://www.instagram.com/theadirerenova/reel/DS2xULqiJM1/"
   },
   {
     "igId": "DLo3mo7ttgz",
     "image": "/ig/DLo3mo7ttgz.jpg",
-    "caption": "Whether you dress to make a quiet statement or to turn heads, one thing's certain  Adire speaks before you do.\n\nOur curated collection of authentic Adire fabrics is for women who don't just follow trends  they set them. From bold everyday looks to coordinated Asoebi styles, each fabric is crafted to bring out your best.\n\nNo need to stress about quality, customization, or where you are  we've got you covered.\n\n✨ We customize for Asoebi and special events\n✨ We sell both retail and wholesale\n✨ We deliver nationwide  fast and reliable\n\nSo whether you're a fashion-forward queen or a celebrant planning your big day, your fabric plug is right here.\n\nReady to shop or customize your own look?\n\nSend us a DM now and let's create something unforgettable together.\n\n      #",
+    "caption": "Whether you dress to make a quiet statement or to turn heads, one thing's certain  Adire speaks before you do.\n\nOur curated collection of authentic Adire fabrics is for women who don't just follow trends  they set them. From bold everyday looks to coordinated Asoebi styles, each fabric is crafted to bring out your best.\n\nNo need to stress about quality, customization, or where you are  we've got you covered.\n\n✨ We customize for Asoebi and special events\n✨ We sell both retail and wholesale\n✨ We deliver nationwide  fast and reliable\n\nSo whether you're a fashion-forward queen or a celebrant planning your big day, your fabric plug is right here.\n\nReady to shop or customize your own look?\n\nSend us a DM now and let's create something unforgettable together.\n\n  👌🏾    #",
     "postedAt": "2025-07-02T23:00:00.000Z",
     "permalink": "https://www.instagram.com/theadirerenova/reel/DLo3mo7ttgz/"
   },
