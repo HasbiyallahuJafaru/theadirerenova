@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CartBadge } from "@/components/cart-badge";
+import { InstagramLogo } from "@phosphor-icons/react/dist/ssr";
 
 const nav = [
   { href: "/shop", label: "Shop" },
@@ -10,19 +11,28 @@ const nav = [
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-tar-sand/70 bg-tar-cream/90 backdrop-blur-md">
-      <div className="mx-auto flex h-[76px] max-w-[1500px] items-center justify-between px-4 md:px-10">
-        <nav className="hidden flex-1 items-center gap-8 md:flex" aria-label="Main">
-          {nav.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="text-[12px] font-medium uppercase tracking-[0.2em] text-tar-ink transition-colors hover:text-tar-orange"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </nav>
+    <header className="sticky top-0 z-40 bg-tar-cream">
+      <div className="flex items-center justify-between bg-tar-green-deep px-4 py-2 md:px-10">
+        <a
+          href="https://instagram.com"
+          aria-label="Instagram"
+          className="text-white/70 transition-colors hover:text-tar-orange"
+        >
+          <InstagramLogo size={14} weight="light" />
+        </a>
+        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-white/85">
+          Naira payments by bank transfer or card at checkout
+        </p>
+        <span className="w-[14px]" aria-hidden />
+      </div>
+
+      <div className="mx-auto flex h-[76px] max-w-[1500px] items-center justify-between border-b border-tar-sand/70 px-4 md:px-10">
+        <Link
+          href="/account"
+          className="hidden text-[11px] font-medium uppercase tracking-[0.18em] text-tar-ink transition-colors hover:text-tar-orange md:block"
+        >
+          Account
+        </Link>
 
         <Link
           href="/"
@@ -37,30 +47,27 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <div className="flex flex-1 items-center justify-end gap-2">
+        <div className="flex flex-1 items-center justify-end gap-5">
           <CartBadge />
-          <Link
-            href="/shop"
-            className="ml-2 rounded-full bg-tar-ink px-6 py-3 text-[12px] font-medium uppercase tracking-[0.18em] text-white transition-all duration-300 hover:bg-tar-orange"
-          >
-            Shop fabrics
-          </Link>
         </div>
       </div>
 
       <nav
-        className="flex items-center justify-center gap-6 border-t border-tar-sand/70 py-3 md:hidden"
-        aria-label="Mobile"
+        className="border-b border-tar-sand/70 bg-tar-cream"
+        aria-label="Primary navigation"
       >
-        {nav.map((item) => (
-          <Link
-            key={item.href}
-            href={item.href}
-            className="text-[11px] font-medium uppercase tracking-[0.16em] text-tar-ink"
-          >
-            {item.label}
-          </Link>
-        ))}
+        <ul className="mx-auto flex max-w-[1500px] items-center justify-center gap-10 px-4 py-4 md:px-10">
+          {nav.map((item) => (
+            <li key={item.href}>
+              <Link
+                href={item.href}
+                className="text-[12px] font-medium uppercase tracking-[0.2em] text-tar-ink transition-colors hover:text-tar-orange"
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </nav>
     </header>
   );

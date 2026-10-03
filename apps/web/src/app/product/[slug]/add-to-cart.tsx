@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Check, ShoppingBag } from "@phosphor-icons/react/dist/ssr";
 import { formatNaira, type Product } from "@/lib/catalog";
 import { useCart } from "@/lib/cart";
 
@@ -30,8 +29,12 @@ export function AddToCart({ product }: { product: Product }) {
   }
 
   return (
-    <div className="mt-8">
-      <p className="text-[13px] font-medium uppercase tracking-[0.14em] text-tar-muted">
+    <div className="mt-6">
+      <p className="text-[22px] font-medium text-tar-ink">
+        {formatNaira(variant.priceKobo)}
+      </p>
+
+      <p className="mt-8 text-[11px] font-semibold uppercase tracking-[0.18em] text-tar-muted">
         Length
       </p>
       <div className="mt-3 flex flex-wrap gap-2" role="group" aria-label="Choose length">
@@ -43,10 +46,10 @@ export function AddToCart({ product }: { product: Product }) {
             disabled={v.stock === 0}
             className={
               v.stock === 0
-                ? "cursor-not-allowed rounded-full border border-tar-sand px-5 py-2.5 text-[14px] text-tar-muted/50 line-through"
+                ? "cursor-not-allowed border border-tar-sand px-5 py-2.5 text-[12px] uppercase tracking-[0.12em] text-tar-muted/50 line-through"
                 : variantIndex === i
-                  ? "rounded-full bg-tar-green px-5 py-2.5 text-[14px] font-medium text-white"
-                  : "rounded-full border border-tar-sand px-5 py-2.5 text-[14px] font-medium text-tar-ink transition-colors hover:border-tar-green hover:text-tar-green"
+                  ? "border border-tar-green bg-tar-green px-5 py-2.5 text-[12px] font-semibold uppercase tracking-[0.12em] text-white"
+                  : "border border-tar-sand px-5 py-2.5 text-[12px] font-medium uppercase tracking-[0.12em] text-tar-ink transition-colors hover:border-tar-green"
             }
           >
             {v.name}
@@ -54,26 +57,23 @@ export function AddToCart({ product }: { product: Product }) {
         ))}
       </div>
 
-      <div className="mt-6 flex flex-wrap items-center gap-4">
+      {!soldOut && variant.stock <= 4 && (
+        <p className="mt-3 text-[13px] text-tar-orange">
+          Only {variant.stock} left in this length.
+        </p>
+      )}
+
+      <div className="mt-8 space-y-3">
         <button
           onClick={handleAdd}
           disabled={soldOut}
           className={
             soldOut
-              ? "cursor-not-allowed rounded-full bg-tar-sand px-8 py-4 text-[16px] font-medium text-tar-muted"
-              : "flex items-center gap-2 rounded-full bg-tar-orange px-8 py-4 text-[16px] font-medium text-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-tar-orange-deep hover:shadow-md active:translate-y-0"
+              ? "w-full cursor-not-allowed bg-tar-sand py-[18px] text-[13px] font-semibold uppercase tracking-[0.2em] text-tar-muted"
+              : "w-full bg-tar-ink py-[18px] text-[13px] font-semibold uppercase tracking-[0.2em] text-white transition-colors duration-300 hover:bg-tar-orange active:translate-y-[1px]"
           }
         >
-          {added ? (
-            <>
-              <Check size={20} weight="bold" /> Added
-            </>
-          ) : (
-            <>
-              <ShoppingBag size={20} weight="light" />
-              {soldOut ? "Sold out" : `Add to cart, ${formatNaira(variant.priceKobo)}`}
-            </>
-          )}
+          {soldOut ? "Sold out" : added ? "Added to cart" : "Add to cart"}
         </button>
         <button
           onClick={() => {
@@ -82,18 +82,13 @@ export function AddToCart({ product }: { product: Product }) {
           disabled={soldOut}
           className={
             soldOut
-              ? "cursor-not-allowed text-[15px] text-tar-muted/50"
-              : "text-[15px] font-medium text-tar-green underline-offset-4 hover:underline"
+              ? "w-full cursor-not-allowed border border-tar-sand py-[18px] text-[13px] font-semibold uppercase tracking-[0.2em] text-tar-muted/50"
+              : "w-full border border-tar-ink py-[18px] text-[13px] font-semibold uppercase tracking-[0.2em] text-tar-ink transition-colors duration-300 hover:border-tar-orange hover:text-tar-orange"
           }
         >
-          Buy now
+          Buy it now
         </button>
       </div>
-      {!soldOut && variant.stock <= 4 && (
-        <p className="mt-3 text-[14px] text-tar-orange">
-          Only {variant.stock} left in this length.
-        </p>
-      )}
     </div>
   );
 }
