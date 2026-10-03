@@ -1,0 +1,9 @@
+{
+  "name": "@tar/instagram-sync",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "pull": "node pull.mjs",
+    "upload": "node upload.mjs"
+  }
+}

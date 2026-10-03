@@ -4,6 +4,7 @@ import { CollectionsGrid } from "@/components/home/collections";
 import { FeaturedProducts } from "@/components/home/featured";
 import { CraftSection } from "@/components/home/craft";
 import { Testimonials } from "@/components/home/testimonials";
+import { InstagramGallery } from "@/components/home/ig-gallery";
 import { Newsletter } from "@/components/home/newsletter";
 
 export default function HomePage() {
@@ -15,6 +16,7 @@ export default function HomePage() {
       <FeaturedProducts />
       <CraftSection />
       <Testimonials />
+      <InstagramGallery />
       <Newsletter />
     </>
   );
