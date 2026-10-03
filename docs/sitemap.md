@@ -12,12 +12,13 @@
 /faq                    FAQ & shipping info
 /cart                   Cart page (also available as slide-over drawer)
 /checkout               Delivery details → Paystack payment
-/order/[reference]      Order confirmation & tracking
-/account                Auth-gated: profile, order history, saved addresses
-  /account/orders
-  /account/orders/[id]
-/sign-in                Sign in (email / phone OTP via Supabase Auth)
-/sign-up                Create account
+/order/[reference]      Order confirmation & tracking (public via reference)
+/track                  Look up an order by its TAR-XXXXXX reference
+```
+
+Guest checkout: no customer accounts. Shoppers enter their details at checkout,
+pay via Paystack, and track orders by reference. (Supabase Auth is not used for
+customers; admin auth remains JWT via the API.)
 ```
 
 ## Admin (`apps/web/admin`)

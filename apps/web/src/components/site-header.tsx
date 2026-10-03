@@ -31,18 +31,6 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 bg-tar-cream">
-      <div className="hidden items-center justify-between bg-tar-green-deep px-4 py-2 md:flex md:px-10">
-        <span className="text-[10px] font-medium uppercase tracking-[0.22em] text-white/85">
-          Kaduna, Nigeria
-        </span>
-        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-white/85">
-          Naira payments by bank transfer or card at checkout
-        </p>
-        <span className="text-[10px] font-medium uppercase tracking-[0.22em] text-white/85">
-          Nationwide delivery
-        </span>
-      </div>
-
       <div className="mx-auto flex h-[76px] max-w-[1500px] items-center justify-between border-b border-tar-sand/70 px-4 md:px-10">
         <div className="flex flex-1 items-center gap-3">
           <button
@@ -54,10 +42,10 @@ export function SiteHeader() {
             {open ? <X size={22} /> : <List size={22} />}
           </button>
           <Link
-            href="/account"
+            href="/track"
             className="hidden text-[11px] font-medium uppercase tracking-[0.18em] text-tar-ink transition-colors hover:text-tar-orange md:block"
           >
-            Account
+            Track order
           </Link>
         </div>
 
@@ -126,10 +114,10 @@ export function SiteHeader() {
                   transition={{ delay: 0.32, duration: 0.3 }}
                 >
                   <Link
-                    href="/account"
+                    href="/track"
                     className="block border-b border-tar-sand py-5 font-display text-4xl font-medium text-tar-green-deep transition-colors hover:text-tar-orange"
                   >
-                    Account
+                    Track order
                   </Link>
                 </motion.li>
               </ul>

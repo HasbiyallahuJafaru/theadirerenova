@@ -16,8 +16,12 @@ export default async function OrderPage({ params }: PageProps<"/order/[reference
         <span className="font-semibold text-tar-ink">{reference}</span>. We will message
         you on WhatsApp to confirm delivery, press it, fold it, and put it in your hands.
       </p>
-      <a
-        href="/shop"
+        <p className="mt-2 text-[15px] text-tar-muted">
+          Checking where it is? Save this reference. You can look it up any time under
+          Track order, no account needed.
+        </p>
+        <a
+          href="/shop"
         className="mt-10 inline-block rounded-full bg-tar-orange px-8 py-4 text-[16px] font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-tar-orange-deep"
       >
         Continue shopping

@@ -54,6 +54,7 @@ export function SiteFooter() {
           </p>
           <ul className="mt-4 space-y-3 text-[15px]">
             <li><Link href="/about" className="text-white/80 hover:text-tar-orange">Our Craft</Link></li>
+            <li><Link href="/track" className="text-white/80 hover:text-tar-orange">Track your order</Link></li>
             <li><Link href="/contact" className="text-white/80 hover:text-tar-orange">Contact</Link></li>
             <li><Link href="/faq" className="text-white/80 hover:text-tar-orange">FAQ &amp; Shipping</Link></li>
           </ul>
