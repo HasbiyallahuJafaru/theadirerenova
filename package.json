@@ -1,0 +1,21 @@
+{
+  "name": "adirerenova",
+  "private": true,
+  "packageManager": "pnpm@12.8.1",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "db:migrate": "pnpm --filter @tar/api db:migrate",
+    "db:generate": "pnpm --filter @tar/api db:generate",
+    "db:studio": "pnpm --filter @tar/api db:studio"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.0",
+    "prettier": "^3.6.0"
+  }
+}

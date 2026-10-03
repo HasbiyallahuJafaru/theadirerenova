@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  /* TAR palette — brief-pinned */
+  --color-tar-orange: #e8590c;
+  --color-tar-orange-deep: #c2410c;
+  --color-tar-orange-soft: #fff0e4;
+  --color-tar-green: #1f5e3d;
+  --color-tar-green-deep: #123d27;
+  --color-tar-green-soft: #e8f3ec;
+  --color-tar-cream: #faf7f2;
+  --color-tar-ink: #1c1917;
+  --color-tar-sand: #e7ded2;
+  --color-tar-muted: #6b6259;
+
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-outfit), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-tar-cream);
+  color: var(--color-tar-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-tar-orange);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-tar-orange);
+  outline-offset: 2px;
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 28s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .marquee-track {
+    animation: none;
+  }
+}

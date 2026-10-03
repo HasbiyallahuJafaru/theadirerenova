@@ -1,0 +1,17 @@
+node_modules/
+.next/
+dist/
+out/
+build/
+.turbo/
+coverage/
+*.log
+.env
+.env.local
+.env.*.local
+.wrangler/
+.dev.vars
+.vercel
+.DS_Store
+scripts/instagram-sync/downloads/
+prisma/migrations/dev.db*
