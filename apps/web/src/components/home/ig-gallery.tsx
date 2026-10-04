@@ -4,7 +4,7 @@ import { instagramPosts } from "@/lib/instagram";
 import { Reveal } from "@/components/reveal";
 
 export function InstagramGallery() {
-  const posts = instagramPosts.slice(0, 8);
+  const posts = instagramPosts.slice(0, 12);
 
   return (
     <section className="mx-auto max-w-[1500px] px-4 py-24 md:px-10 md:py-36">
