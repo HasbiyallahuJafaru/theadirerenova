@@ -1,9 +1,8 @@
 name: CI
 
+# Manual-only: runs when you click "Run workflow" on GitHub, never automatically.
 on:
-  push:
-    branches: [main]
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   check:
